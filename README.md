@@ -32,6 +32,9 @@
     * T – Testable
       * A good story is testable. Writing a story card carries an implicit promise: "I understand what I want well enough that I could write a test for it." Several teams have reported that by requiring customer tests before implementing a story, the team is more productive. "Testability" has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.
 * Advantages of Jira; tips and tricks
+  * Type `c` for shortcut to creating an issue
+  * Add issue to epic - via backlog agile board or when viewing story
+  * take advantage of Jira's text formatting for easy to follow descriptions
 * Examples of best in class and ineffective user stories you’ve received, and showing the end result of work in each case
 
 ## IN-SESSION EXERCISE YOU’LL LEAD:
