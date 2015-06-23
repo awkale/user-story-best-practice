@@ -8,31 +8,38 @@
 
 <p><a href="http://prnewswire-ux.github.io/user-story-best-practice">documentation site</a></p>
 
-<h2 id="whatisauserstory">What is a user story?</h2>
-
-<ul>
-<li>A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</li>
-<li>The brief description of the need</li>
-<li>The conversations that happen during backlog grooming and iteration planning to solidify the details</li>
-<li>The tests that confirm the story&#8217;s satisfactory completion</li>
-</ul>
-
 <h2 id="versionthemevsepicvsuserstoryvstask">Version (theme) vs Epic vs user story vs task</h2>
 
 <p>Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
  * A version is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers.
  * An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
  * In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks.
- * A sub-task issue is typically one of many tasks that make up a story (or parent issue).
-* What makes a great user story
- * The goal of a user story is to deliver a particular value back to the customer.
- * A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
- * They don&#8217;t go into detailed requirements. User stories are often written using the following template:
- &gt; As a [type of user], I want [goal] so that I [receive benefit].</p>
+ * A sub-task issue is typically one of many tasks that make up a story (or parent issue).</p>
+
+<h2 id="whyuseuserstories">Why use user stories?</h2>
 
 <ul>
-<li>Let&#8217;s use a website as a simple example to create a user story.
- &gt; As a customer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.</li>
+<li>Keep yourself expressing business value</li>
+<li>Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution</li>
+<li>Avoid the appearance of false completeness and clarity</li>
+<li>Get to small enough chunks that invite negotiation and movement in the backlog</li>
+<li>Leave the technical functions to the architect, developers, testers, and so on</li>
+</ul>
+
+<h2 id="whatisauserstory">What is a user story?</h2>
+
+<ul>
+<li><p>A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</p></li>
+<li><p>The brief description of the need</p></li>
+<li><p>The conversations that happen during backlog grooming and iteration planning to solidify the details</p></li>
+<li><p>The tests that confirm the story&#8217;s satisfactory completion</p></li>
+<li><p>The goal of a user story is to deliver a particular value back to the customer.</p></li>
+<li><p>A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.</p></li>
+<li><p>What makes a great user story</p></li>
+<li><p>They don&#8217;t go into detailed requirements. User stories are often written using the following template:
+ &gt; As a [type of user], I want [goal] so that I [receive benefit].</p></li>
+<li><p>Let&#8217;s use a website as a simple example to create a user story.
+ &gt; As a customer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.</p></li>
 </ul>
 
 <blockquote>
@@ -40,8 +47,7 @@
 </blockquote>
 
 <ul>
-<li><p>User story dos and don’ts</p></li>
-<li>A good user story will follow the INVEST mnemonic.
+<li>A well-formed user story will follow the INVEST mnemonic.
 
 <ul>
 <li>I – Independent</li>
@@ -60,19 +66,33 @@
 <li>A good story is testable. Writing a story card carries an implicit promise: &#8220;I understand what I want well enough that I could write a test for it.&#8221; Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.</li>
 <li>&#8220;Testability&#8221; has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn&#8217;t know how to test something, this may indicate that the story isn&#8217;t clear enough, or that it doesn&#8217;t reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.</li>
 </ul></li>
-<li><p>Advantages of Jira; tips and tricks</p></li>
-<li><p>Type <code>c</code> for shortcut to creating an issue</p></li>
-<li><p>Add issue to epic - via backlog agile board or when viewing story</p></li>
-<li><p>take advantage of Jira&#8217;s text formatting for easy to follow descriptions</p></li>
-<li><p>Examples of best in class and ineffective user stories you’ve received, and showing the end result of work in each case</p></li>
+</ul>
+
+<h2 id="userstorydosanddon’ts">User story dos and don’ts</h2>
+
+<ul>
+<li>Try to avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.</li>
+</ul>
+
+<h2 id="advantagesofjiratipsandtricks">Advantages of Jira; tips and tricks</h2>
+
+<ul>
+<li>Type <code>c</code> for shortcut to creating an issue</li>
+<li>Add issue to epic - via backlog agile board or when viewing story</li>
+<li>take advantage of Jira&#8217;s text formatting for easy to follow descriptions</li>
+</ul>
+
+<h2 id="examplesofbestinclassandineffectiveuserstories">Examples of best in class and ineffective user stories</h2>
+
+<ul>
 <li><a href="https://prnewswire.jira.com/browse/PRNCOM-4564">epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content</a>
 
 <ul>
 <li><a href="https://prnewswire.jira.com/browse/PRNCOM-4869">story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged</a></li>
 </ul></li>
-<li><p><a href="https://prnewswire.jira.com/browse/CNW-58">UX wireframes</a></p></li>
-<li><p>Agility: Broadcast, Audience Data, Dashboard Usability Improvements</p></li>
-<li><p>Visibility Reports: Earned Media, International Release Consolidation</p></li>
+<li><a href="https://prnewswire.jira.com/browse/CNW-58">UX wireframes</a></li>
+<li>Agility: Broadcast, Audience Data, Dashboard Usability Improvements</li>
+<li>Visibility Reports: Earned Media, International Release Consolidation</li>
 </ul>
 
 <h2 id="in-sessionexerciseyou’lllead:">IN-SESSION EXERCISE YOU’LL LEAD:</h2>

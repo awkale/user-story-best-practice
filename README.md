@@ -1,21 +1,28 @@
 # User Story Best Practice documentation and presentation
 [documentation site](http://prnewswire-ux.github.io/user-story-best-practice)
 
-## What is a user story?
-* A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
-  * The brief description of the need
-  * The conversations that happen during backlog grooming and iteration planning to solidify the details
-  * The tests that confirm the story's satisfactory completion
-
 ## Version (theme) vs Epic vs user story vs task
 Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
   * A version is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers.
   * An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
   * In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks.
   * A sub-task issue is typically one of many tasks that make up a story (or parent issue).
-* What makes a great user story
+
+## Why use user stories?
+* Keep yourself expressing business value
+* Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution
+* Avoid the appearance of false completeness and clarity
+* Get to small enough chunks that invite negotiation and movement in the backlog
+* Leave the technical functions to the architect, developers, testers, and so on
+
+## What is a user story?
+* A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+  * The brief description of the need
+  * The conversations that happen during backlog grooming and iteration planning to solidify the details
+  * The tests that confirm the story's satisfactory completion
   * The goal of a user story is to deliver a particular value back to the customer.
-  * A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
+* A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
+* What makes a great user story
   * They don't go into detailed requirements. User stories are often written using the following template:
   > As a [type of user], I want [goal] so that I [receive benefit].
 
@@ -25,9 +32,7 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
 
   > “Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck
 
-* User story dos and don’ts
-
-  * A good user story will follow the INVEST mnemonic.
+  * A well-formed user story will follow the INVEST mnemonic.
     * I – Independent
       * Stories are easiest to work with if they are independent. That is, we'd like them to not overlap in concept, and we'd like to be able to schedule and implement them in any order.
     * N – Negotiable
@@ -43,11 +48,16 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
     * T – Testable
       * A good story is testable. Writing a story card carries an implicit promise: "I understand what I want well enough that I could write a test for it." Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.
       * "Testability" has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.
-* Advantages of Jira; tips and tricks
+
+## User story dos and don’ts
+* Try to avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.
+
+## Advantages of Jira; tips and tricks
   * Type `c` for shortcut to creating an issue
   * Add issue to epic - via backlog agile board or when viewing story
   * take advantage of Jira's text formatting for easy to follow descriptions
-* Examples of best in class and ineffective user stories you’ve received, and showing the end result of work in each case
+
+## Examples of best in class and ineffective user stories
   * [epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content](https://prnewswire.jira.com/browse/PRNCOM-4564)
     * [story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged](https://prnewswire.jira.com/browse/PRNCOM-4869)
   * [UX wireframes](https://prnewswire.jira.com/browse/CNW-58)
