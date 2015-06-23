@@ -5,6 +5,9 @@
   * agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
   * A version is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers.
   * An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
+  * examples of epics
+  *   -Agility: Broadcast, Audience Data, Dashboard Usability Improvements
+  *   -Visibility Reports: Earned Media, International Release Consolidation
   * In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks.
   * A sub-task issue is typically one of many tasks that make up a story (or parent issue).
 * What makes a great user story
