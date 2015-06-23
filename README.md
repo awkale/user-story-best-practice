@@ -50,7 +50,8 @@
   * [UX wireframes](https://prnewswire.jira.com/browse/CNW-58)
 
 ## IN-SESSION EXERCISE YOU’LL LEAD:
-* Select a real-life scenario (with sketches/wireframes, if possible)
-* Present the concept of the feature
-* Participants to write epic and 1-2 supporting user stories
-* Participants will share their user stories and compare to real-life stories that were used for an already developed feature.
+* Break into groups of 2-3
+* Share the features you brought with the group
+* Group decides on 1 feature
+* As a group write an epic and a few user stories
+* Review epic and user stories and dicuss
