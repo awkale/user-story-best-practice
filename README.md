@@ -45,9 +45,12 @@
   * [epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content](https://prnewswire.jira.com/browse/PRNCOM-4564)
     * [story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged](https://prnewswire.jira.com/browse/PRNCOM-4869)
   * [UX wireframes](https://prnewswire.jira.com/browse/CNW-58)
+  * Agility: Broadcast, Audience Data, Dashboard Usability Improvements
+  * Visibility Reports: Earned Media, International Release Consolidation
 
 ## IN-SESSION EXERCISE YOU’LL LEAD:
-* Select a real-life scenario (with sketches/wireframes, if possible) test
-* Present the concept of the feature
-* Participants to write epic and 1-2 supporting user stories
-* Participants will share their user stories and compare to real-life stories that were used for an already developed feature.
+* Break into groups of 2-3
+* Share the features you brought with the group
+* Group decides on 1 feature
+* As a group write an epic and a few user stories
+* Review epic and user stories and dicuss
