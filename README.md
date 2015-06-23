@@ -22,7 +22,8 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
   * The tests that confirm the story's satisfactory completion
   * The goal of a user story is to deliver a particular value back to the customer.
 * A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
-* What makes a great user story
+
+##  What makes a great user story
   * They don't go into detailed requirements. User stories are often written using the following template:
   > As a [type of user], I want [goal] so that I [receive benefit].
 
