@@ -1,8 +1,14 @@
 # User Story Best Practice documentation and presentation
 [documentation site](http://prnewswire-ux.github.io/user-story-best-practice)
-# What is a user story?
-* Version (theme) vs Epic vs user story vs task
-  * agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
+
+## What is a user story?
+* A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+  * The brief description of the need
+  * The conversations that happen during backlog grooming and iteration planning to solidify the details
+  * The tests that confirm the story's satisfactory completion
+
+## Version (theme) vs Epic vs user story vs task
+Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
   * A version is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers.
   * An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
   * In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks.
