@@ -1,5 +1,5 @@
 # User Story Best Practice documentation and presentation
-[Slide show](http://prnewswire-ux.github.io/user-story-best-practice)
+[documentation site](http://prnewswire-ux.github.io/user-story-best-practice)
 # What is a user story?
 * Version (theme) vs Epic vs user story vs task
   * agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
