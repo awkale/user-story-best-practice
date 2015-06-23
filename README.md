@@ -24,11 +24,12 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
 * A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
 
 ##  What makes a great user story
-  * They don't go into detailed requirements. User stories are often written using the following template:
+  * They don't go into detailed requirements.
+  * User stories must be written using the following template:
   > As a [type of user], I want [goal] so that I [receive benefit].
 
   * Let's use a website as a simple example to create a user story.
-  > As a customer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.
+  > As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.
 
 
   > “Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck
@@ -51,7 +52,16 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
       * "Testability" has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.
 
 ## User story dos and don’ts
-* Try to avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.
+* DO focus on a specific user
+  * Avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.
+* DO provide acceptance criteria
+  * The product owner should list as many acceptance criteria as possible in order to clarify the intent of the story. Acceptance criteria will become QA test cases
+* DO have conversations
+  * update acceptance criteria and user story details based on your conversations
+* DONT go into detailed requirements
+* DONT provide the solution
+  * User stories must be focused on the user need and benifit not solution
+
 
 ## Advantages of Jira; tips and tricks
   * Type `c` for shortcut to creating an issue
