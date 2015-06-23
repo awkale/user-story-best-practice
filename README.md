@@ -79,8 +79,9 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
   * [epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content](https://prnewswire.jira.com/browse/PRNCOM-4564)
     * [story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged](https://prnewswire.jira.com/browse/PRNCOM-4869)
   * [UX wireframes](https://prnewswire.jira.com/browse/CNW-58)
-  * Agility: Epic-Audience Data
+  * Agility: [Epic-Display Audience Data Within Agility](https://prnewswire.jira.com/browse/CWP-6196)
    *[story - As a monitoring user, I would like to see mentions with ComScore audience data available within my results, so that I can qualify the message based on reach of the outlet.](https://prnewswire.jira.com/browse/CWP-6297)
+   * [story - As an Agility user, I would like to be able to construct a people search using the audience score for the outlets they work for, so I can better isolate influencers.] (https://prnewswire.jira.com/browse/CWP-6207)
   * Visibility Reports: Earned Media, International Release Consolidation
    * (Too technical)[Earned Media Pickup processing and analysis](https://prnewswire.jira.com/browse/VREP-3474)
    * (As a wire customer I want to understand the full value and impact of a PRN distribution so my purchase decision is validated)[https://prnewswire.jira.com/browse/VREP-2674]
