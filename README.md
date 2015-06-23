@@ -20,7 +20,7 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
   * The brief description of the need
   * The conversations that happen during backlog grooming and iteration planning to solidify the details
   * The tests that confirm the story's satisfactory completion
-  * The goal of a user story is to deliver a particular value back to the customer.
+* The goal of a user story is to deliver a particular value back to the customer.
 * A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
 
 ##  What makes a great user story
@@ -72,8 +72,7 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
   * [epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content](https://prnewswire.jira.com/browse/PRNCOM-4564)
     * [story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged](https://prnewswire.jira.com/browse/PRNCOM-4869)
   * [UX wireframes](https://prnewswire.jira.com/browse/CNW-58)
-  * Agility Epics: Broadcast, Audience Data, Dashboard Usability Improvements
-   * [story - As a monitoring user, I would like to see mentions with ComScore audience data available within my results, so that I can qualify the message based on reach of the outlet.](https://prnewswire.jira.com/browse/CWP-6297)
+  * Agility: Broadcast, Audience Data, Dashboard Usability Improvements
   * Visibility Reports: Earned Media, International Release Consolidation
 
 ## IN-SESSION EXERCISE YOU’LL LEAD:
