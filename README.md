@@ -2,11 +2,11 @@
 [documentation site](http://prnewswire-ux.github.io/user-story-best-practice)
 
 ## Version (theme) vs Epic vs user story vs task
-Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions.
-  * A version is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers.
-  * An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
-  * In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks.
-  * A sub-task issue is typically one of many tasks that make up a story (or parent issue).
+Agile development uses four clear delivery methods to bring structure to any project: **versions**, **sprints**, **epics** and **user stories**.
+  * A **version** is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers. A version can be made up of multiple sprints
+  * A **sprint** is a set period of time during which specific work has to be completed and made ready for review
+  * An **epic** captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.
+  * A **user story** (represented as an issue in Jira) captures a description of a feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement. User stories are broken up into individual tasks that make up the story (represented as sub-tasks in Jira).
 
 ## Why use user stories?
 * Keep yourself expressing business value
@@ -15,22 +15,34 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
 * Get to small enough chunks that invite negotiation and movement in the backlog
 * Leave the technical functions to the architect, developers, testers, and so on
 
-## What is a user story?
-* A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+## Creating a user story
+* The goal is to outline a particular value to the customer that a team can deliver in an iteration using a few short sentences, ideally using non-technical language. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
   * The brief description of the need
   * The conversations that happen during backlog grooming and iteration planning to solidify the details
   * The tests that confirm the story's satisfactory completion
-* The goal of a user story is to deliver a particular value back to the customer.
-* A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language.
 
 ##  What makes a great user story
   * They don't go into detailed requirements.
   * User stories must be written using the following template:
   > As a [type of user], I want [goal] so that I [receive benefit].
+  > **End user goal:** _______________________________
+  > **End business goal:** _____________________________
+  > **Acceptance criteria:**
+    * product defines any initial functionality requirements they can think of
+    * this is a loose outline that will be finalized through wireframes, flows and discussions
+    * acceptance criteria must be finalized before dev starts
+  > **Measurement of success:** ___________________________ 
+     * Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.
 
+## Example user story
   * Let's use a website as a simple example to create a user story.
   > As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.
-
+  > **End user goal:** _______________________________
+  > **End business goal:** _____________________________
+  > **Acceptance criteria:** (this isn't finalized until the story is ready for development)
+    *
+    *
+  > **Measurement of success:** ___________________________ 
 
   > “Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck
 
@@ -77,7 +89,6 @@ Agile development uses four clear delivery vehicles to bring structure to any ag
 
 ## IN-SESSION EXERCISE YOU’LL LEAD:
 * Break into groups of 2-3
-* Share the features you brought with the group
-* Group decides on 1 feature
+* Present feature
 * As a group write an epic and a few user stories
 * Review epic and user stories and dicuss
