@@ -49,11 +49,12 @@ URL: https://code.google.com/p/io-2012-slides
         <h2>Version vs Epic vs user story vs task</h2>
       </hgroup>
       <article>
-        <p>Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions</p>
-        <ul>
-          <li>An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic</li>
-          <li>In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks</li>
-          <li>A sub-task issue is typically one of many tasks that make up a story (or parent issue)</li>
+        <p>Agile development uses four clear delivery methods to bring structure to any  project: versions, sprints, epics, and user stories</p>
+        <ul class="build">
+          <li>A <span class="green"><b>version</b></span> is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers. A version can be made up of multiple sprints</li>
+          <li>A <span class="green"><b>sprint</b></span> is a set period of time during which specific work has to be completed and made ready for review</li>
+          <li>An <span class="green"><b>epic</b></span> captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.</li>
+          <li>A <span class="green"><b>user story</b></span> (represented as an issue in Jira) captures a description of a feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement. User stories are broken up into individual tasks that make up the story (represented as sub-tasks in Jira)</li>
         </ul>
       </article>
     </slide>
@@ -62,7 +63,6 @@ URL: https://code.google.com/p/io-2012-slides
       <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
       <hgroup class="auto-fadein">
         <h2>Why use user stories?</h2>
-        <h3>Subtitle Placeholder</h3>
       </hgroup>
     </slide>
 
@@ -71,7 +71,7 @@ URL: https://code.google.com/p/io-2012-slides
         <h2>Why use user stories</h2>
       </hgroup>
       <article>
-        <ul>
+        <ul class="build">
           <li>Keep yourself expressing business value</li>
           <li>Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution</li>
           <li>Avoid the appearance of false completeness and clarity</li>
@@ -83,17 +83,15 @@ URL: https://code.google.com/p/io-2012-slides
 
     <slide>
       <hgroup>
-        <h2>What is a user story</h2>
+        <h2>Creating a user story</h2>
       </hgroup>
       <article>
-        <p>A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</p>
+        <p>The goal is to outline a particular value to the customer that a team can deliver in an iteration using a few short sentences, ideally using non-technical language. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</p>
         <ul class="build">
           <li>The brief description of the need</li>
           <li>The conversations that happen during backlog grooming and iteration planning to solidify the details</li>
           <li>The tests that confirm the story's satisfactory completion</li>
         </ul>
-        <p>The goal of a user story is to deliver a particular value back to the customer</p>
-        <p>A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language</p>
       </article>
     </slide>
 
@@ -102,7 +100,8 @@ URL: https://code.google.com/p/io-2012-slides
         <h2>What makes a great user story</h2>
       </hgroup>
       <article>
-        <p>They don't go into detailed requirements. User stories are often written using the following template:</p>
+        <p>They don't go into detailed requirements.</p>
+        <p>User stories must be written using the following template:</p>
         <ul class="build">
           <li>As a <span class="green">[type of user]</span>, I want <span class="green">[goal]</span> so that I <span class="green">[receive benefit]</span>.</li>
         </ul>
@@ -251,6 +250,7 @@ URL: https://code.google.com/p/io-2012-slides
       <slide>
         <hgroup>
           <h2>Epic example in Jira</h2>
+          <h3>PRNCOM</h3>
         </hgroup>
         <article>
           <iframe data-src="https://prnewswire.jira.com/browse/PRNCOM-4564"></iframe>
@@ -260,6 +260,7 @@ URL: https://code.google.com/p/io-2012-slides
       <slide>
         <hgroup>
           <h2>Story example in Jira</h2>
+          <h3>PRNCOM</h3>
         </hgroup>
         <article>
           <iframe data-src="https://prnewswire.jira.com/browse/PRNCOM-4869"></iframe>
@@ -269,9 +270,60 @@ URL: https://code.google.com/p/io-2012-slides
       <slide>
         <hgroup>
           <h2>Story example with wireframes in Jira</h2>
+          <h3>CNW</h3>
         </hgroup>
         <article>
           <iframe data-src="https://prnewswire.jira.com/browse/CNW-58"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Epic example in Jira</h2>
+          <h3>Agility</h3>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/CWP-6196"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Story example in Jira</h2>
+          <h3>Agility</h3>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/CWP-6297"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Story example in Jira</h2>
+          <h3>Agility</h3>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/CWP-6207"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Story example in Jira</h2>
+          <h3> Visibility Reports</h3>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/VREP-3474"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Story example in Jira</h2>
+          <h3> Visibility Reports</h3>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/VREP-2674"></iframe>
         </article>
       </slide>
 
