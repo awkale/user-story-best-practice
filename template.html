@@ -2,7 +2,7 @@
 Google IO 2012/2013 HTML5 Slide Template
 
 Authors: Eric Bidelman <ebidel@gmail.com>
-         Luke Mahé <lukem@google.com>
+Luke Mahé <lukem@google.com>
 
 URL: https://code.google.com/p/io-2012-slides
 -->
@@ -24,501 +24,310 @@ URL: https://code.google.com/p/io-2012-slides
 </head>
 <body style="opacity: 0">
 
-<slides class="layout-widescreen">
+  <slides class="layout-widescreen">
 
-  <slide class="title-slide segue nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
-    <hgroup class="auto-fadein">
-      <h1 data-config-title><!-- populated from slide_config.json --></h1>
-      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
-      <p data-config-presenter><!-- populated from slide_config.json --></p>
-    </hgroup>
-  </slide>
+    <slide class="title-slide segue nobackground">
+      <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+      <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+      <hgroup class="auto-fadein">
+        <h1 data-config-title><!-- populated from slide_config.json --></h1>
+        <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+        <p data-config-presenter><!-- populated from slide_config.json --></p>
+      </hgroup>
+    </slide>
 
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Version vs Epic vs User Story </h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-  </slide>
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>Version vs Epic vs User Story </h2>
+        <h3>Subtitle Placeholder</h3>
+      </hgroup>
+    </slide>
 
-  <slide>
-    <hgroup>
-      <h2>Version vs Epic vs user story vs task</h2>
-    </hgroup>
-    <article>
-      <p>Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions</p>
-      <ul>
-        <li>An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic</li>
-        <li>In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks</li>
-        <li>A sub-task issue is typically one of many tasks that make up a story (or parent issue)</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Why use user stories?</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Why use user stories</h2>
-    </hgroup>
-    <article>
-      <ul>
-        <li>Keep yourself expressing business value</li>
-        <li>Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution</li>
-        <li>Avoid the appearance of false completeness and clarity</li>
-        <li>Get to small enough chunks that invite negotiation and movement in the backlog</li>
-        <li>Leave the technical functions to the architect, developers, testers, and so on</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>What is a user story</h2>
-    </hgroup>
-    <article>
-      <p>A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</p>
-      <ul class="build">
-        <li>The brief description of the need</li>
-        <li>The conversations that happen during backlog grooming and iteration planning to solidify the details</li>
-        <li>The tests that confirm the story's satisfactory completion</li>
-      </ul>
-      <p>The goal of a user story is to deliver a particular value back to the customer</p>
-      <p>A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language</p>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>What makes a great user story</h2>
-    </hgroup>
-    <article>
-      <p>They don't go into detailed requirements. User stories are often written using the following template:</p>
-      <ul class="build">
-        <li>As a <span class="green">[type of user]</span>, I want <span class="green">[goal]</span> so that I <span class="green">[receive benefit]</span>.</li>
-      </ul>
-      <p>Let's use a website as a simple example to create a user story</p>
-      <ul class="build">
-        <li>As a <span class="green">consumer</span>, I want <span class="green">to be able to create an account</span> so that I <span class="green">can see the purchases I made in the last year to help me budget for next year</span>.</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide class="segue dark quote nobackground">
-    <aside class="gdbar right bottom"><img src="images/ubm_mark.png"></aside>
-    <article class="flexbox vleft auto-fadein">
-      <q>
-        Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.
-      </q>
-      <div class="author">
-        Kent Beck
-      </div>
-    </article>
-  </slide>
-
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>User story dos and don’ts</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>User story dos and don'ts</h2>
-    </hgroup>
-    <article class="">
-      <ul class="build">
-        <li><span class="green">DO</span> focus on a specific user
-          <ul>
-            <li>Avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.</li>
-          </ul>
-        </li>
-        <li><span class="green">DO</span> provide acceptance criteria
-          <ul>
-            <li>The product owner should list as many acceptance criteria as possible in order to clarify the intent of the story. Acceptance criteria will become QA test cases</li>
-          </ul>
-        </li>
-        <li><span class="green">DO</span> have conversations
-          <ul>
-            <li>update acceptance criteria and user story details based on your conversations</li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="build">
-        <li><span class="red">DON'T</span> go into detailed requirements</li>
-        <li><span class="red">DON'T</span> provide the solution
-          <ul>
-            <li>User stories must be focused on the user need and benifit not solution</li>
-          </ul>
-        </li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>User story examples</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Slide with Bullets that Build</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-    <article>
-      <p>A list where items build:</p>
-      <ul class="build">
-        <li>Pressing 'h' highlights code snippets</li>
-        <li>Pressing 'p' toggles speaker notes (if they're on the current slide)</li>
-        <li>Pressing 'f' toggles fullscreen viewing</li>
-        <li>Pressing 'w' toggles widescreen</li>
-        <li>Pressing 'o' toggles overview mode</li>
-        <li>Pressing 'ESC' toggles off these goodies</li>
-      </ul>
-      <p>Another list, but items fade as they build:</p>
-      <ul class="build fade">
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-        <li>Hover over me!</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Slide with (Smaller Font)</h2>
-    </hgroup>
-    <article class="smaller">
-      <ul>
-        <li>All <a href="http://google.com">links</a> open in new tabs.</li>
-        <li>To change that this, add <code>target="_self"</code> to the link.</li>
-      </ul>
-    </article>
-  </slide>
-
-  <slide hidden>
-    Hidden slides are left out of the presentation.
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Code Slide (with Subtitle Placeholder)</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-    <article>
-      <p>Press 'h' to highlight important sections of code (wrapped in <code>&lt;b&gt;</code>).</p>
-      <pre class="prettyprint" data-lang="javascript">
-&lt;script type='text/javascript'&gt;
-  // Say hello world until the user starts questioning
-  // the meaningfulness of their existence.
-  function helloWorld(world) {
-    <b>for (var i = 42; --i &gt;= 0;) {
-      alert('Hello ' + String(world));
-    }</b>
-  }
-&lt;/script&gt;
-</pre>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Code Slide (Smaller Font)</h2>
-    </hgroup>
-    <article class="smaller">
-      <pre class="prettyprint" data-lang="javascript">
-// Say hello world until the user starts questioning
-// the meaningfulness of their existence.
-function helloWorld(world) {
-  for (var i = 42; --i &gt;= 0;) {
-    alert('Hello ' + String(world));
-  }
-}
-</pre>
-<pre class="prettyprint" data-lang="css">
-&lt;style&gt;
-  p { color: pink }
-  b { color: blue }
-&lt;/style&gt;
-</pre>
-<pre class="prettyprint" data-lang="html">
-&lt;!DOCTYPE html>
-&lt;html>
-&lt;head>
-  &lt;title>My Awesome Page&lt;/title>
-&lt;/head>
-&lt;body>
-  &lt;p&gt;Hello world&lt;/p&gt;
-&lt;body>
-&lt;/html>
-</pre>
-    </article>
-  </slide>
-
-  <slide>
-    <aside class="note">
-      <section>
+    <slide>
+      <hgroup>
+        <h2>Version vs Epic vs user story vs task</h2>
+      </hgroup>
+      <article>
+        <p>Agile development uses four clear delivery vehicles to bring structure to any agile project: user stories, sprints, epics, and versions</p>
         <ul>
-          <li>Point I wanted to make #1</li>
-          <li>Point I wanted to make #2</li>
-          <li>Point I wanted to make #3</li>
-          <li>Example <a href="#">link</a> in notes.</li>
+          <li>An epic captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic</li>
+          <li>In JIRA Agile, a story is represented as an issue, and individual tasks within the story are represented as sub-tasks</li>
+          <li>A sub-task issue is typically one of many tasks that make up a story (or parent issue)</li>
         </ul>
-        <p><b>Remember to say this tag line!</b></p>
-      </section>
-    </aside>
-    <hgroup>
-      <h2>Slide with Speaker Notes</h2>
-    </hgroup>
-    <article>
-      <p>Press 'p' to toggle speaker notes.</p>
-    </article>
-  </slide>
+      </article>
+    </slide>
 
-  <slide>
-    <aside class="note">
-      <section>
+    <slide class="segue dark nobackground">
+      <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+      <hgroup class="auto-fadein">
+        <h2>Why use user stories?</h2>
+        <h3>Subtitle Placeholder</h3>
+      </hgroup>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>Why use user stories</h2>
+      </hgroup>
+      <article>
         <ul>
-          <li>See this amazing link: <a href="http://www.google.com">link</a>.</li>
+          <li>Keep yourself expressing business value</li>
+          <li>Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution</li>
+          <li>Avoid the appearance of false completeness and clarity</li>
+          <li>Get to small enough chunks that invite negotiation and movement in the backlog</li>
+          <li>Leave the technical functions to the architect, developers, testers, and so on</li>
         </ul>
-        <p><b>Remember to say this tag line!</b></p>
-      </section>
-    </aside>
-    <hgroup>
-      <h2>Presenter Mode</h2>
-    </hgroup>
-    <article>
-      <p>Add <code><a href="?presentme=true" target="_self">?presentme=true</a></code> to the URL to enabled presenter mode.
-      This setting is sticky, meaning refreshing the page will persist presenter
-      mode.</p>
-      <p>Hit <code><a href="?presentme=false" target="_self">?presentme=false</a></code> to disable presenter mode.</p>
-    </article>
-  </slide>
+      </article>
+    </slide>
 
-  <slide>
-    <hgroup>
-      <h2>Slide with Image</h2>
-    </hgroup>
-    <article>
-      <img src="images/chart.png" class="reflect" alt="Description" title="Description">
-      <footer class="source">source: place source info here</footer>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Slide with Image (Centered horz/vert)</h2>
-    </hgroup>
-    <article class="flexbox vcenter">
-      <img src="images/barchart.png" alt="Description" title="Description">
-      <footer class="source">source: place source info here</footer>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Table Option A</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-    <article>
-      <table>
-        <tr>
-          <th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th><th>Column 4</th>
-        </tr>
-        <tr>
-          <td>Row 1</td><td>placeholder</td><td class="highlight">placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 2</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 3</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 4</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 5</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-      </table>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Table Option A (Smaller Text)</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-    <article class="smaller">
-      <table>
-        <tr>
-          <th></th><th>Column 1</th><th>Column 2</th><th>Column 3</th><th>Column 4</th>
-        </tr>
-        <tr>
-          <td>Row 1</td><td>placeholder</td><td class="highlight">placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 2</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 3</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 4</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <td>Row 5</td><td>placeholder</td><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-      </table>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Table Option B</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-    <article>
-      <table class="rows">
-        <tr>
-          <th>Header 1</th><td>placeholder</td><td class="highlight">placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <th>Header 2</th><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <th>Header 3</th><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <th>Header 4</th><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-        <tr>
-          <th>Header 5</th><td>placeholder</td><td>placeholder</td><td>placeholder</td>
-        </tr>
-      </table>
-    </article>
-  </slide>
-
-  <slide>
-    <hgroup>
-      <h2>Slide Styles</h2>
-    </hgroup>
-    <article class="smaller">
-      <div class="columns-2">
-        <ul>
-          <li class="red">class="red"</li>
-          <li class="red2">class="red2"</li>
-          <li class="red3">class="red3"</li>
-          <li class="blue">class="blue"</li>
-          <li class="blue2">class="blue2"</li>
-          <li class="blue3">class="blue3"</li>
-          <li class="green">class="green"</li>
-          <li class="green2">class="green2"</li>
+    <slide>
+      <hgroup>
+        <h2>What is a user story</h2>
+      </hgroup>
+      <article>
+        <p>A user story represents a small piece of business value that a team can deliver in an iteration. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:</p>
+        <ul class="build">
+          <li>The brief description of the need</li>
+          <li>The conversations that happen during backlog grooming and iteration planning to solidify the details</li>
+          <li>The tests that confirm the story's satisfactory completion</li>
         </ul>
-        <ul>
-          <li class="green3">class="green3"</li>
-          <li class="yellow">class="yellow"</li>
-          <li class="yellow2">class="yellow2"</li>
-          <li class="yellow3">class="yellow3"</li>
-          <li class="gray">class="gray"</li>
-          <li class="gray2">class="gray2"</li>
-          <li class="gray3">class="gray3"</li>
-          <li class="gray4">class="gray4"</li>
+        <p>The goal of a user story is to deliver a particular value back to the customer</p>
+        <p>A story or user story is a software system requirement that is expressed in a few short sentences, ideally using non-technical language</p>
+      </article>
+    </slide>
+
+    <slide>
+      <hgroup>
+        <h2>What makes a great user story</h2>
+      </hgroup>
+      <article>
+        <p>They don't go into detailed requirements. User stories are often written using the following template:</p>
+        <ul class="build">
+          <li>As a <span class="green">[type of user]</span>, I want <span class="green">[goal]</span> so that I <span class="green">[receive benefit]</span>.</li>
         </ul>
-      </div>
-      <div class="centered" style="margin-top:2em">
-        I am centered text with a <button>Button</button> and <button disabled>Disabled</button> button.
-      </div>
-    </article>
-  </slide>
+        <p>Let's use a website as a simple example to create a user story</p>
+        <ul class="build">
+          <li>As a <span class="green">consumer</span>, I want <span class="green">to be able to create an account</span> so that I <span class="green">can see the purchases I made in the last year to help me budget for next year</span>.</li>
+        </ul>
+      </article>
+    </slide>
 
-  <slide class="segue dark nobackground">
-    <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
-    <hgroup class="auto-fadein">
-      <h2>Segue Slide</h2>
-      <h3>Subtitle Placeholder</h3>
-    </hgroup>
-  </slide>
+    <slide>
+      <hgroup>
+        <h2>A well-formed user story will follow the INVEST mnemonic</h2>
+      </hgroup>
+      <article class="">
+        <P>I – Independent</p>
+          <ul class="build">
+            <li>Stories are easiest to work with if they are independent. That is, we'd like them to not overlap in concept, and we'd like to be able to schedule and implement them in any order</li>
+          </ul>
+          <p>N – Negotiable</p>
+          <ul class="build">
+            <li>A good story is negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development. A good story captures the essence, not the details. Over time, the card may acquire notes, test ideas, and so on, but we don't need these to prioritize or schedule stories</li>
+          </ul>
+        </article>
+      </slide>
 
-  <slide class="fill nobackground" style="background-image: url(images/sky.jpg)">
-    <hgroup>
-      <h2 class="white">Full Image (with Optional Header)</h2>
-    </hgroup>
-    <footer class="source white">www.flickr.com/photos/25797459@N06/5438799763/</footer>
-  </slide>
+      <slide>
+        <hgroup>
+          <h2>A well-formed user story will follow the INVEST mnemonic</h2>
+        </hgroup>
+        <article class="">
+          <p>V – Valuable</p>
+          <ul class="build">
+            <li>A story needs to be valuable. We don't care about value to just anybody; it needs to be valuable to the customer. Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important. This is especially an issue when splitting stories</li>
+            <li>Think of a whole story as a multi-layer cake, e.g., a network layer, a persistence layer, a logic layer, and a presentation layer. When we split a story, we're serving up only part of that cake. We want to give the customer the essence of the whole cake, and the best way is to slice vertically through the layers. Developers often have an inclination to work on only one layer at a time (and get it "right"); but a full database layer (for example) has little value to the customer if there's no presentation layer</li>
+          </ul>
+        </article>
+      </slide>
 
-  <slide class="segue dark quote nobackground">
-    <aside class="gdbar right bottom"><img src="images/ubm_mark.png"></aside>
-    <article class="flexbox vleft auto-fadein">
-      <q>
-        This is an example of quote text.
-      </q>
-      <div class="author">
-        Name<br>
-        Company
-      </div>
-    </article>
-  </slide>
+      <slide>
+        <hgroup>
+          <h2>A well-formed user story will follow the INVEST mnemonic</h2>
+        </hgroup>
+        <article class="">
+          <p>E – Estimable</p>
+          <ul class="build">
+            <li>A good story can be estimated. We don't need an exact estimate, but just enough to help the customer rank and schedule the story's implementation. Being estimable is partly a function of being negotiated, as it's hard to estimate a story we don't understand. It is also a function of size: bigger stories are harder to estimate</li>
+            <li>Finally, it's a function of the team: what's easy to estimate will vary depending on the team's experience. (Sometimes a team may have to split a story into a (time-boxed) "spike" that will give the team enough information to make a decent estimate, and the rest of the story that will actually implement the desired feature.)</li>
+          </ul>
+        </article>
+      </slide>
 
-  <slide>
-    <hgroup>
-      <h2>Slide with Iframe</h2>
-    </hgroup>
-    <article>
-      <iframe data-src="http://www.google.com/doodle4google/resources/history.html"></iframe>
-    </article>
-  </slide>
+      <slide>
+        <hgroup>
+          <h2>A well-formed user story will follow the INVEST mnemonic</h2>
+        </hgroup>
+        <article class="smaller">
+          <p>S – Small</p>
+          <ul class="build">
+            <li>Good stories tend to be small. Stories typically represent at most a few person-weeks worth of work. (Some teams restrict them to a few person-days of work.) Above this size, and it seems to be too hard to know what's in the story's scope. Saying, "it would take me more than a month" often implicitly adds, "as I don't understand what-all it would entail." Smaller stories tend to get more accurate estimates</li>
+          </ul>
+          <p>T – Testable</p>
+          <ul class="build">
+            <li>A good story is testable. Writing a story card carries an implicit promise: "I understand what I want well enough that I could write a test for it." Several teams have reported that by requiring customer tests before implementing a story, the team is more productive</li>
+            <li>"Testability" has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs</li>
+          </ul>
+        </article>
+      </slide>
 
-  <slide>
-    <article>
-      <iframe data-src="http://www.google.com/doodle4google/resources/history.html"></iframe>
-    </article>
-  </slide>
+      <slide>
+        <hgroup>
+          <h2>User story outline</h2>
+        </hgroup>
+        <article>
+          <ul>
+            <li>User Story</li>
+            <li>End user goal</li>
+            <li>End business goal</li>
+            <li>Acceptance Criteria /this isn't finalized until the story is ready for development/</li>
+            <li>Measurement of Success /this is added after conversations with product, ux and research/</li>
+          </ul>
+        </article>
+      </slide>
 
-  <slide class="thank-you-slide segue nobackground">
-    <aside class="gdbar right"><img src="images/ubm_mark.png"></aside>
-    <article class="flexbox vleft auto-fadein">
-      <h2>&lt;Thank You!&gt;</h2>
-      <p>Important contact information goes here.</p>
-    </article>
-    <p class="auto-fadein" data-config-contact>
-      <!-- populated from slide_config.json -->
-    </p>
-  </slide>
+      <slide class="segue dark quote nobackground">
+        <aside class="gdbar right bottom"><img src="images/ubm_mark.png"></aside>
+        <article class="flexbox vleft auto-fadein">
+          <q>
+            Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.
+          </q>
+          <div class="author">
+            Kent Beck
+          </div>
+        </article>
+      </slide>
 
-  <slide class="backdrop"></slide>
+      <slide class="segue dark nobackground">
+        <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+        <hgroup class="auto-fadein">
+          <h2>User story dos and don’ts</h2>
+          <h3>Subtitle Placeholder</h3>
+        </hgroup>
+      </slide>
 
-</slides>
+      <slide>
+        <hgroup>
+          <h2>User story dos and don'ts</h2>
+        </hgroup>
+        <article class="">
+          <ul class="build">
+            <li><span class="green">DO</span> focus on a specific user
+              <ul>
+                <li>Avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.</li>
+              </ul>
+            </li>
+            <li><span class="green">DO</span> provide acceptance criteria
+              <ul>
+                <li>The product owner should list as many acceptance criteria as possible in order to clarify the intent of the story. Acceptance criteria will become QA test cases</li>
+              </ul>
+            </li>
+            <li><span class="green">DO</span> have conversations
+              <ul>
+                <li>update acceptance criteria and user story details based on your conversations</li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="build">
+            <li><span class="red">DON'T</span> go into detailed requirements</li>
+            <li><span class="red">DON'T</span> provide the solution
+              <ul>
+                <li>User stories must be focused on the user need and benifit not solution</li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </slide>
 
-<script>
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
-_gaq.push(['_trackPageview']);
+      <slide class="segue dark nobackground">
+        <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+        <hgroup class="auto-fadein">
+          <h2>User story examples</h2>
+          <h3>Subtitle Placeholder</h3>
+        </hgroup>
+      </slide>
 
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-</script>
+      <slide>
+        <hgroup>
+          <h2>Epic example in Jira</h2>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/PRNCOM-4564"></iframe>
+        </article>
+      </slide>
 
-<!--[if IE]>
-  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
-  <script>CFInstall.check({mode: 'overlay'});</script>
-<![endif]-->
-</body>
-</html>
+      <slide>
+        <hgroup>
+          <h2>Story example in Jira</h2>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/PRNCOM-4869"></iframe>
+        </article>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>Story example with wireframes in Jira</h2>
+        </hgroup>
+        <article>
+          <iframe data-src="https://prnewswire.jira.com/browse/CNW-58"></iframe>
+        </article>
+      </slide>
+
+      <slide class="segue dark nobackground">
+        <aside class="gdbar"><img src="images/ubm_mark.png"></aside>
+        <hgroup class="auto-fadein">
+          <h2>In-session exercise</h2>
+          <h3>Subtitle Placeholder</h3>
+        </hgroup>
+      </slide>
+
+      <slide>
+        <hgroup>
+          <h2>In-session exercise</h2>
+        </hgroup>
+        <article>
+          <ul>
+            <li>Break into groups of 2-3</li>
+            <li>Share the features you brought with the group</li>
+            <li>Group decides on 1 feature</li>
+            <li>As a group write an epic and a few user stories</li>
+            <li>Review epic and user stories and dicuss</li>
+          </ul>
+        </article>
+      </slide>
+
+      <slide class="thank-you-slide segue nobackground">
+        <aside class="gdbar right"><img src="images/ubm_mark.png"></aside>
+        <article class="flexbox vleft auto-fadein">
+          <h2>&lt;Thank You!&gt;</h2>
+          <p>Important contact information goes here.</p>
+        </article>
+        <p class="auto-fadein" data-config-contact>
+          <!-- populated from slide_config.json -->
+        </p>
+      </slide>
+
+      <slide class="backdrop"></slide>
+
+    </slides>
+
+    <script>
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+
+    <!--[if IE]>
+    <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+    <![endif]-->
+  </body>
+  </html>

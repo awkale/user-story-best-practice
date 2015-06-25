@@ -41,10 +41,16 @@
 
 <ul>
 <li><p>They don&#8217;t go into detailed requirements.</p></li>
-<li><p>User stories must be written using the following template:
- &gt; As a [type of user], I want [goal] so that I [receive benefit].</p></li>
-<li><p>Let&#8217;s use a website as a simple example to create a user story.
- &gt; As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.</p></li>
+<li><p>User stories must be written using the following template:</p>
+
+<blockquote>
+<p>As a [type of user], I want [goal] so that I [receive benefit].</p>
+</blockquote></li>
+<li><p>Let&#8217;s use a website as a simple example to create a user story.</p>
+
+<blockquote>
+<p>As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.</p>
+</blockquote></li>
 </ul>
 
 <blockquote>
@@ -52,25 +58,46 @@
 </blockquote>
 
 <ul>
-<li>A well-formed user story will follow the INVEST mnemonic.
+<li><p>A well-formed user story will follow the INVEST mnemonic.</p></li>
+<li>I – Independent
 
 <ul>
-<li>I – Independent</li>
 <li>Stories are easiest to work with if they are independent. That is, we&#8217;d like them to not overlap in concept, and we&#8217;d like to be able to schedule and implement them in any order.</li>
-<li>N – Negotiable</li>
+</ul></li>
+<li>N – Negotiable
+
+<ul>
 <li>A good story is negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development. A good story captures the essence, not the details. Over time, the card may acquire notes, test ideas, and so on, but we don&#8217;t need these to prioritize or schedule stories.</li>
-<li>V – Valuable</li>
+</ul></li>
+<li>V – Valuable
+
+<ul>
 <li>A story needs to be valuable. We don&#8217;t care about value to just anybody; it needs to be valuable to the customer. Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important. This is especially an issue when splitting stories.</li>
 <li>Think of a whole story as a multi-layer cake, e.g., a network layer, a persistence layer, a logic layer, and a presentation layer. When we split a story, we&#8217;re serving up only part of that cake. We want to give the customer the essence of the whole cake, and the best way is to slice vertically through the layers. Developers often have an inclination to work on only one layer at a time (and get it &#8220;right&#8221;); but a full database layer (for example) has little value to the customer if there&#8217;s no presentation layer.</li>
-<li>E – Estimable</li>
+</ul></li>
+<li>E – Estimable
+
+<ul>
 <li>A good story can be estimated. We don&#8217;t need an exact estimate, but just enough to help the customer rank and schedule the story&#8217;s implementation. Being estimable is partly a function of being negotiated, as it&#8217;s hard to estimate a story we don&#8217;t understand. It is also a function of size: bigger stories are harder to estimate.</li>
 <li>Finally, it&#8217;s a function of the team: what&#8217;s easy to estimate will vary depending on the team&#8217;s experience. (Sometimes a team may have to split a story into a (time-boxed) &#8220;spike&#8221; that will give the team enough information to make a decent estimate, and the rest of the story that will actually implement the desired feature.)</li>
-<li>S – Small</li>
+</ul></li>
+<li>S – Small
+
+<ul>
 <li>Good stories tend to be small. Stories typically represent at most a few person-weeks worth of work. (Some teams restrict them to a few person-days of work.) Above this size, and it seems to be too hard to know what&#8217;s in the story&#8217;s scope. Saying, &#8220;it would take me more than a month&#8221; often implicitly adds, &#8220;as I don&#8217;t understand what-all it would entail.&#8221; Smaller stories tend to get more accurate estimates.</li>
-<li>T – Testable</li>
+</ul></li>
+<li>T – Testable
+
+<ul>
 <li>A good story is testable. Writing a story card carries an implicit promise: &#8220;I understand what I want well enough that I could write a test for it.&#8221; Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.</li>
 <li>&#8220;Testability&#8221; has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn&#8217;t know how to test something, this may indicate that the story isn&#8217;t clear enough, or that it doesn&#8217;t reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.</li>
 </ul></li>
+<li><p>User story outline</p></li>
+<li><p>User Story</p></li>
+<li><p>End user goal</p></li>
+<li><p>End business goal</p></li>
+<li><p>Acceptance Criteria /this isn&#8217;t finalized until the story is ready for development/</p></li>
+<li><p>Measurement of Success /this is added after conversations with product, ux and research/</p></li>
 </ul>
 
 <h2 id="userstorydosanddon’ts">User story dos and don’ts</h2>
@@ -104,8 +131,11 @@
 <li><a href="https://prnewswire.jira.com/browse/PRNCOM-4869">story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged</a></li>
 </ul></li>
 <li><a href="https://prnewswire.jira.com/browse/CNW-58">UX wireframes</a></li>
-<li>Agility: Broadcast, Audience Data, Dashboard Usability Improvements</li>
+<li>Agility: Epic-Audience Data
+ *<a href="https://prnewswire.jira.com/browse/CWP-6297">story - As a monitoring user, I would like to see mentions with ComScore audience data available within my results, so that I can qualify the message based on reach of the outlet.</a></li>
 <li>Visibility Reports: Earned Media, International Release Consolidation</li>
+<li>(Too technical)<a href="https://prnewswire.jira.com/browse/VREP-3474">Earned Media Pickup processing and analysis</a></li>
+<li>(As a wire customer I want to understand the full value and impact of a PRN distribution so my purchase decision is validated)[https://prnewswire.jira.com/browse/VREP&#8211;2674]</li>
 </ul>
 
 <h2 id="in-sessionexerciseyou’lllead:">IN-SESSION EXERCISE YOU’LL LEAD:</h2>
