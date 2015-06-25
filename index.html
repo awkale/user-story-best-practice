@@ -21,6 +21,197 @@
     <h1><a id="presentation" class="anchor" href="#presentation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Presentation</h1>
     <p><a href="template.html">Slide presentation</a></p>
     <h1><a id="notes" class="anchor" href="#notes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Notes</h1>
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage">
+
+
+<h2><a id="user-content-version-theme-vs-epic-vs-user-story-vs-task" class="anchor" href="#version-theme-vs-epic-vs-user-story-vs-task" aria-hidden="true"><span class="octicon octicon-link"></span></a>Version (theme) vs Epic vs user story vs task</h2>
+
+<p>Agile development uses four clear delivery methods to bring structure to any project: <strong>versions</strong>, <strong>sprints</strong>, <strong>epics</strong> and <strong>user stories</strong>.</p>
+
+<ul>
+<li>A <strong>version</strong> is a set of features and fixes released together as a single update to your product. Assigning issues to versions helps you plan the order in which new features (stories) for your product will be released to your customers. A version can be made up of multiple sprints</li>
+<li>A <strong>sprint</strong> is a set period of time during which specific work has to be completed and made ready for review</li>
+<li>An <strong>epic</strong> captures a large body of work. It is essentially a large user story that can be broken down into a number of smaller stories. It may take several sprints to complete an epic.</li>
+<li>A <strong>user story</strong> (represented as an issue in Jira) captures a description of a feature from an end-user perspective. The user story describes the type of user, what they want and why. A user story helps to create a simplified description of a requirement. User stories are broken up into individual tasks that make up the story (represented as sub-tasks in Jira).</li>
+</ul>
+
+<h2><a id="user-content-why-use-user-stories" class="anchor" href="#why-use-user-stories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why use user stories?</h2>
+
+<ul>
+<li>Keep yourself expressing business value</li>
+<li>Avoid introducing detail too early that would prevent design options and inappropriately lock developers into one solution</li>
+<li>Avoid the appearance of false completeness and clarity</li>
+<li>Get to small enough chunks that invite negotiation and movement in the backlog</li>
+<li>Leave the technical functions to the architect, developers, testers, and so on</li>
+</ul>
+
+<h2><a id="user-content-creating-a-user-story" class="anchor" href="#creating-a-user-story" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating a user story</h2>
+
+<ul>
+<li>The goal is to outline a particular value to the customer that a team can deliver in an iteration using a few short sentences, ideally using non-technical language. While traditional requirements (like use cases) try to be as detailed as possible, a user story is defined incrementally, in three stages:
+
+<ul>
+<li>The brief description of the need</li>
+<li>The conversations that happen during backlog grooming and iteration planning to solidify the details</li>
+<li>The tests that confirm the story's satisfactory completion</li>
+</ul></li>
+</ul>
+
+<h2><a id="user-content-what-makes-a-great-user-story" class="anchor" href="#what-makes-a-great-user-story" aria-hidden="true"><span class="octicon octicon-link"></span></a>What makes a great user story</h2>
+
+<ul>
+<li>They don't go into detailed requirements.</li>
+<li><p>User stories must be written using the following template:</p>
+
+<blockquote>
+<p>As a [type of user], I want [goal] so that I [receive benefit].</p>
+</blockquote></li>
+<li><p>End user goal:</p></li>
+<li>End business goal:</li>
+<li>Acceptance criteria:
+
+<ul>
+<li>product defines any initial functionality requirements they can think of</li>
+<li>this is a loose outline that will be finalized through wireframes, flows and discussions</li>
+<li>acceptance criteria must be finalized before dev starts</li>
+</ul></li>
+<li>Measurement of success:
+
+<ul>
+<li>Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.</li>
+</ul></li>
+</ul>
+
+<h2><a id="user-content-example-user-story" class="anchor" href="#example-user-story" aria-hidden="true"><span class="octicon octicon-link"></span></a>Example user story</h2>
+
+<ul>
+<li><p>Let's use a website as a simple example to create a user story.</p>
+
+<blockquote>
+<p>As a purchaser on the website I want the ability to pay with a credit card, so that I may immediately confirm my purchase.</p>
+</blockquote></li>
+<li><p>End user goal: End user goal: Purchase items with a credit card</p></li>
+<li>End business goal: End business goal: Increase purchases</li>
+<li><p>Acceptance criteria: (this isn't finalized until the story is ready for development)</p>
+
+<ul>
+<li>Accept Discover, Visa, MC</li>
+<li>Validate credit card number</li>
+<li>Validate expiration data and CVV</li>
+<li>Validate billing address</li>
+<li>Generate success/failure messages after processing</li>
+</ul></li>
+<li><p>Measurement of success:</p>
+
+<blockquote>
+<p>“Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck</p>
+</blockquote></li>
+</ul>
+
+<h2><a id="user-content-a-well-formed-user-story-will-follow-the-invest-mnemonic" class="anchor" href="#a-well-formed-user-story-will-follow-the-invest-mnemonic" aria-hidden="true"><span class="octicon octicon-link"></span></a>A well-formed user story will follow the INVEST mnemonic.</h2>
+
+<ul>
+<li>I – Independent
+
+<ul>
+<li>Stories are easiest to work with if they are independent. That is, we'd like them to not overlap in concept, and we'd like to be able to schedule and implement them in any order.</li>
+</ul></li>
+<li>N – Negotiable
+
+<ul>
+<li>A good story is negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development. A good story captures the essence, not the details. Over time, the card may acquire notes, test ideas, and so on, but we don't need these to prioritize or schedule stories.</li>
+</ul></li>
+<li>V – Valuable
+
+<ul>
+<li>A story needs to be valuable. We don't care about value to just anybody; it needs to be valuable to the customer. Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important. This is especially an issue when splitting stories.</li>
+<li>Think of a whole story as a multi-layer cake, e.g., a network layer, a persistence layer, a logic layer, and a presentation layer. When we split a story, we're serving up only part of that cake. We want to give the customer the essence of the whole cake, and the best way is to slice vertically through the layers. Developers often have an inclination to work on only one layer at a time (and get it "right"); but a full database layer (for example) has little value to the customer if there's no presentation layer.</li>
+</ul></li>
+<li>E – Estimable
+
+<ul>
+<li>A good story can be estimated. We don't need an exact estimate, but just enough to help the customer rank and schedule the story's implementation. Being estimable is partly a function of being negotiated, as it's hard to estimate a story we don't understand. It is also a function of size: bigger stories are harder to estimate.</li>
+<li>Finally, it's a function of the team: what's easy to estimate will vary depending on the team's experience. (Sometimes a team may have to split a story into a (time-boxed) "spike" that will give the team enough information to make a decent estimate, and the rest of the story that will actually implement the desired feature.)</li>
+</ul></li>
+<li>S – Small
+
+<ul>
+<li>Good stories tend to be small. Stories typically represent at most a few person-weeks worth of work. (Some teams restrict them to a few person-days of work.) Above this size, and it seems to be too hard to know what's in the story's scope. Saying, "it would take me more than a month" often implicitly adds, "as I don't understand what-all it would entail." Smaller stories tend to get more accurate estimates.</li>
+</ul></li>
+<li>T – Testable
+
+<ul>
+<li>A good story is testable. Writing a story card carries an implicit promise: "I understand what I want well enough that I could write a test for it." Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.</li>
+<li>"Testability" has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.</li>
+</ul></li>
+</ul>
+
+<h2><a id="user-content-user-story-dos-and-donts" class="anchor" href="#user-story-dos-and-donts" aria-hidden="true"><span class="octicon octicon-link"></span></a>User story dos and don’ts</h2>
+
+<ul>
+<li>DO focus on a specific user
+
+<ul>
+<li>Avoid the generic role of User when writing user stories. User stories are about all of the role who interact with the system or who realize some value or benefit from the system.</li>
+</ul></li>
+<li>DO provide acceptance criteria
+
+<ul>
+<li>The product owner should list as many acceptance criteria as possible in order to clarify the intent of the story. Acceptance criteria will become QA test cases</li>
+</ul></li>
+<li>DO have conversations
+
+<ul>
+<li>update acceptance criteria and user story details based on your conversations</li>
+</ul></li>
+<li>DONT go into detailed requirements</li>
+<li>DONT provide the solution
+
+<ul>
+<li>User stories must be focused on the user need and benifit not solution</li>
+</ul></li>
+</ul>
+
+<h2><a id="user-content-advantages-of-jira-tips-and-tricks" class="anchor" href="#advantages-of-jira-tips-and-tricks" aria-hidden="true"><span class="octicon octicon-link"></span></a>Advantages of Jira; tips and tricks</h2>
+
+<ul>
+<li>Type <code>c</code> for shortcut to creating an issue</li>
+<li>Add issue to epic - via backlog agile board or when viewing story</li>
+<li>take advantage of Jira's text formatting for easy to follow descriptions</li>
+</ul>
+
+<h2><a id="user-content-examples-of-best-in-class-and-ineffective-user-stories" class="anchor" href="#examples-of-best-in-class-and-ineffective-user-stories" aria-hidden="true"><span class="octicon octicon-link"></span></a>Examples of best in class and ineffective user stories</h2>
+
+<ul>
+<li><a href="https://prnewswire.jira.com/browse/PRNCOM-4564">epic - As a customer of PR Newswire, I would like a new news release template for my thought leadership content</a>
+
+<ul>
+<li><a href="https://prnewswire.jira.com/browse/PRNCOM-4869">story - As a user I want to be able to see that there is more information below the cropping of an infographic so that it is easier to know that it should be enlarged</a></li>
+</ul></li>
+<li><a href="https://prnewswire.jira.com/browse/CNW-58">UX wireframes</a></li>
+<li>Agility: <a href="https://prnewswire.jira.com/browse/CWP-6196">Epic-Display Audience Data Within Agility</a>
+*<a href="https://prnewswire.jira.com/browse/CWP-6297">story - As a monitoring user, I would like to see mentions with ComScore audience data available within my results, so that I can qualify the message based on reach of the outlet.</a>
+
+<ul>
+<li><a href="https://prnewswire.jira.com/browse/CWP-6207">story - As an Agility user, I would like to be able to construct a people search using the audience score for the outlets they work for, so I can better isolate influencers.</a></li>
+</ul></li>
+<li>Visibility Reports: Earned Media, International Release Consolidation
+
+<ul>
+<li>(Too technical)<a href="https://prnewswire.jira.com/browse/VREP-3474">Earned Media Pickup processing and analysis</a></li>
+<li>(As a wire customer I want to understand the full value and impact of a PRN distribution so my purchase decision is validated)[<a href="https://prnewswire.jira.com/browse/VREP-2674">https://prnewswire.jira.com/browse/VREP-2674</a>]</li>
+</ul></li>
+</ul>
+
+<h2><a id="user-content-in-session-exercise-youll-lead" class="anchor" href="#in-session-exercise-youll-lead" aria-hidden="true"><span class="octicon octicon-link"></span></a>IN-SESSION EXERCISE YOU’LL LEAD:</h2>
+
+<ul>
+<li>Break into groups of 2-3</li>
+<li>Present feature</li>
+<li>As a group write an epic and a few user stories</li>
+<li>Review epic and user stories and dicuss</li>
+</ul>
+</article>
     <footer class="site-footer">
       <span class="site-footer-owner"><a href="https://github.com/prnewswire-ux/user-story-best-practice">User-story-best-practice</a> is maintained by <a href="https://github.com/prnewswire-ux">prnewswire-ux</a>.</span>
     </footer>
