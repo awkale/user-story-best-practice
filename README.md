@@ -35,13 +35,15 @@ Agile development uses four clear delivery methods to bring structure to any pro
      * Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.
 
 ## Example user story
-  * Let's use a website as a simple example to create a user story.
-  > As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.
-  > **End user goal:** _______________________________
-  > **End business goal:** _____________________________
-  > **Acceptance criteria:** (this isn't finalized until the story is ready for development)
-    *
-    *
+  > As a purchaser on the website I want the ability to pay with a credit card, so that I may immediately confirm my purchase.
+  > **End user goal:** Purchase items with a credit card
+  > **End business goal:** Increase purchases
+  > **Acceptance criteria:**
+    * Accept Discover, Visa, MC
+    * Validate credit card number
+    * Validate expiration data and CVV
+    * Validate billing address
+    * Generate success/failure messages after processing
   > **Measurement of success:** ___________________________
 
 > “Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck
