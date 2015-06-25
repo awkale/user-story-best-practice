@@ -38,18 +38,21 @@
 <h2 id="whatmakesagreatuserstory">What makes a great user story</h2>
 
 <ul>
-<li>They don&#8217;t go into detailed requirements.</li>
-<li>User stories must be written using the following template:
- &gt; As a [type of user], I want [goal] so that I [receive benefit].
- &gt; <strong>End user goal:</strong> _______________________________
- &gt; <strong>End business goal:</strong> _____________________________
- &gt; <strong>Acceptance criteria:</strong>
+<li><p>They don&#8217;t go into detailed requirements.</p></li>
+<li><p>User stories must be written using the following template:
+ &gt; As a [type of user], I want [goal] so that I [receive benefit].</p></li>
+<li><p>End user goal:</p></li>
+<li><p>End business goal:</p></li>
+<li>Acceptance criteria:
 
 <ul>
 <li>product defines any initial functionality requirements they can think of</li>
 <li>this is a loose outline that will be finalized through wireframes, flows and discussions</li>
-<li>acceptance criteria must be finalized before dev starts
- &gt; <strong>Measurement of success:</strong> ___________________________</li>
+<li>acceptance criteria must be finalized before dev starts</li>
+</ul></li>
+<li>Measurement of success:
+
+<ul>
 <li>Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.</li>
 </ul></li>
 </ul>
@@ -57,41 +60,44 @@
 <h2 id="exampleuserstory">Example user story</h2>
 
 <ul>
-<li>Let&#8217;s use a website as a simple example to create a user story.
- &gt; As a consumer, I want to be able to create an account so that I can see the purchases I made in the last year to help me budget for next year.
- &gt; <strong>End user goal:</strong> _______________________________
- &gt; <strong>End business goal:</strong> _____________________________
- &gt; <strong>Acceptance criteria:</strong> (this isn&#8217;t finalized until the story is ready for development)
-*
-*
- &gt; <strong>Measurement of success:</strong> ___________________________</li>
+<li><p>Let&#8217;s use a website as a simple example to create a user story.
+ &gt; As a purchaser on the website I want the ability to pay with a credit card, so that I may immediately confirm my purchase.</p></li>
+<li><p>End user goal: End user goal: Purchase items with a credit card</p></li>
+<li><p>End business goal: End business goal: Increase purchases</p></li>
+<li>Acceptance criteria: (this isn&#8217;t finalized until the story is ready for development)
+
+<ul>
+<li>Accept Discover, Visa, MC</li>
+<li>Validate credit card number</li>
+<li>Validate expiration data and CVV</li>
+<li>Validate billing address</li>
+<li>Generate success/failure messages after processing</li>
+</ul></li>
+<li><p>Measurement of success:</p></li>
 </ul>
 
 <blockquote>
 <p>“Stories are deliberately not fleshed out in detail until they are ready to be developed, you only need enough understanding to allow prioritization with other stories.” - Kent Beck</p>
 </blockquote>
 
-<ul>
-<li>A well-formed user story will follow the INVEST mnemonic.
+<h2 id="awell-formeduserstorywillfollowtheinvestmnemonic.">A well-formed user story will follow the INVEST mnemonic.</h2>
 
-<ul>
-<li>I – Independent</li>
-<li>Stories are easiest to work with if they are independent. That is, we&#8217;d like them to not overlap in concept, and we&#8217;d like to be able to schedule and implement them in any order.</li>
-<li>N – Negotiable</li>
-<li>A good story is negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development. A good story captures the essence, not the details. Over time, the card may acquire notes, test ideas, and so on, but we don&#8217;t need these to prioritize or schedule stories.</li>
-<li>V – Valuable</li>
-<li>A story needs to be valuable. We don&#8217;t care about value to just anybody; it needs to be valuable to the customer. Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important. This is especially an issue when splitting stories.</li>
-<li>Think of a whole story as a multi-layer cake, e.g., a network layer, a persistence layer, a logic layer, and a presentation layer. When we split a story, we&#8217;re serving up only part of that cake. We want to give the customer the essence of the whole cake, and the best way is to slice vertically through the layers. Developers often have an inclination to work on only one layer at a time (and get it &#8220;right&#8221;); but a full database layer (for example) has little value to the customer if there&#8217;s no presentation layer.</li>
-<li>E – Estimable</li>
-<li>A good story can be estimated. We don&#8217;t need an exact estimate, but just enough to help the customer rank and schedule the story&#8217;s implementation. Being estimable is partly a function of being negotiated, as it&#8217;s hard to estimate a story we don&#8217;t understand. It is also a function of size: bigger stories are harder to estimate.</li>
-<li>Finally, it&#8217;s a function of the team: what&#8217;s easy to estimate will vary depending on the team&#8217;s experience. (Sometimes a team may have to split a story into a (time-boxed) &#8220;spike&#8221; that will give the team enough information to make a decent estimate, and the rest of the story that will actually implement the desired feature.)</li>
-<li>S – Small</li>
-<li>Good stories tend to be small. Stories typically represent at most a few person-weeks worth of work. (Some teams restrict them to a few person-days of work.) Above this size, and it seems to be too hard to know what&#8217;s in the story&#8217;s scope. Saying, &#8220;it would take me more than a month&#8221; often implicitly adds, &#8220;as I don&#8217;t understand what-all it would entail.&#8221; Smaller stories tend to get more accurate estimates.</li>
-<li>T – Testable</li>
-<li>A good story is testable. Writing a story card carries an implicit promise: &#8220;I understand what I want well enough that I could write a test for it.&#8221; Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.</li>
-<li>&#8220;Testability&#8221; has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn&#8217;t know how to test something, this may indicate that the story isn&#8217;t clear enough, or that it doesn&#8217;t reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.</li>
-</ul></li>
-</ul>
+<pre><code>* I – Independent
+  * Stories are easiest to work with if they are independent. That is, we'd like them to not overlap in concept, and we'd like to be able to schedule and implement them in any order.
+* N – Negotiable
+  * A good story is negotiable. It is not an explicit contract for features; rather, details will be co-created by the customer and programmer during development. A good story captures the essence, not the details. Over time, the card may acquire notes, test ideas, and so on, but we don't need these to prioritize or schedule stories.
+* V – Valuable
+  * A story needs to be valuable. We don't care about value to just anybody; it needs to be valuable to the customer. Developers may have (legitimate) concerns, but these framed in a way that makes the customer perceive them as important. This is especially an issue when splitting stories.
+  * Think of a whole story as a multi-layer cake, e.g., a network layer, a persistence layer, a logic layer, and a presentation layer. When we split a story, we're serving up only part of that cake. We want to give the customer the essence of the whole cake, and the best way is to slice vertically through the layers. Developers often have an inclination to work on only one layer at a time (and get it &quot;right&quot;); but a full database layer (for example) has little value to the customer if there's no presentation layer.
+* E – Estimable
+  * A good story can be estimated. We don't need an exact estimate, but just enough to help the customer rank and schedule the story's implementation. Being estimable is partly a function of being negotiated, as it's hard to estimate a story we don't understand. It is also a function of size: bigger stories are harder to estimate.
+  * Finally, it's a function of the team: what's easy to estimate will vary depending on the team's experience. (Sometimes a team may have to split a story into a (time-boxed) &quot;spike&quot; that will give the team enough information to make a decent estimate, and the rest of the story that will actually implement the desired feature.)
+* S – Small
+  * Good stories tend to be small. Stories typically represent at most a few person-weeks worth of work. (Some teams restrict them to a few person-days of work.) Above this size, and it seems to be too hard to know what's in the story's scope. Saying, &quot;it would take me more than a month&quot; often implicitly adds, &quot;as I don't understand what-all it would entail.&quot; Smaller stories tend to get more accurate estimates.
+* T – Testable
+  * A good story is testable. Writing a story card carries an implicit promise: &quot;I understand what I want well enough that I could write a test for it.&quot; Several teams have reported that by requiring customer tests before implementing a story, the team is more productive.
+  * &quot;Testability&quot; has always been a characteristic of good requirements; actually writing the tests early helps us know whether this goal is met. If a customer doesn't know how to test something, this may indicate that the story isn't clear enough, or that it doesn't reflect something valuable to them, or that the customer just needs help in testing. A team can treat non-functional requirements (such as performance and usability) as things that need to be tested. Figure out how to operationalize these tests will help the team learn the true needs.
+</code></pre>
 
 <h2 id="userstorydosanddon’ts">User story dos and don’ts</h2>
 
