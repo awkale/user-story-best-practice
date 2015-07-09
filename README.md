@@ -102,3 +102,8 @@ Agile development uses four clear delivery methods to bring structure to any pro
 * Present feature
 * As a group write an epic and a few user stories
 * Review epic and user stories and dicuss
+
+## Links
+* [“As a Developer…” Is Not a User Story](http://www.industriallogic.com/blog/as-a-developer-is-not-a-user-story/)
+* [How to translate “business value” of things that are technically important](http://www.agileweboperations.com/how-to-translate-business-value-of-things-that-are-technically-important)
+* [Should You Create User Stories for Technical Debt?](http://www.infoq.com/news/2013/03/user-stories-technical-debt)
