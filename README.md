@@ -1,5 +1,5 @@
 # User Story Best Practice documentation and presentation
-[documentation site](http://prnewswire-ux.github.io/user-story-best-practice)
+[documentation site](http://cision-ux.github.io/user-story-best-practice/)
 
 ## Version (theme) vs Epic vs user story vs task
 Agile development uses four clear delivery methods to bring structure to any project: **versions**, **sprints**, **epics** and **user stories**.
